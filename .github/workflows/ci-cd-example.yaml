@@ -10,6 +10,6 @@ jobs:
 
     steps:
     - name: Checkout repository
-      uses: actions/Checkout@v3
+      uses: actions/checkout@v3
 
   

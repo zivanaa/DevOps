@@ -1,0 +1,15 @@
+name: Example CICD Workflow with Node.js
+
+on:
+  push:
+    branches: [main, develop]
+
+jobs:
+  ci_test:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/Checkout@v3
+
+  

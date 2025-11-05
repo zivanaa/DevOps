@@ -2,7 +2,7 @@ name: Example CICD Workflow with Node.js
 
 on:
   push:
-    branches: [main, develop]
+    branches: [master, develop]
 
 jobs:
   ci_test:

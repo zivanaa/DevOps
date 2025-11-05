@@ -8,8 +8,17 @@ jobs:
   ci_test:
     runs-on: ubuntu-latest
 
+    defaults:
+      run:
+        working-directory: ./02_Node_Example
+
     steps:
     - name: Checkout repository
       uses: actions/checkout@v3
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '24.11.0'
 
   

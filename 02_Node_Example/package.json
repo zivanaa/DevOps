@@ -1,5 +1,5 @@
 {
-    "name": "node-test-simple",
+    "name": "test-simple",
     "version": "1.0.0",
     "main": "src/app.js",
     "scripts": {
@@ -13,5 +13,13 @@
     "devDependencies": {
         "jest": "^29.7.0",
         "supertest": "^7.0.0"
-    }
+    },
+    "description": "",
+    "directories": {
+        "test": "tests"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "type": "commonjs"
 }

@@ -57,7 +57,7 @@ jobs:
           echo "berhasil masuk"
           ls
 
-          if [-d ".git"]; then
+          if [ -d ".git" ]; then
             echo "direktori ditemukan"
             git pull origin main
           else

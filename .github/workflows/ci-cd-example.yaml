@@ -54,7 +54,7 @@ jobs:
           cd ..
           ls
           cd /home/app_project
-          echo "berhasil login"
+          echo "berhasil masuk"
           ls
 
   

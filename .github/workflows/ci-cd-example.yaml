@@ -59,7 +59,7 @@ jobs:
 
           if [ -d ".git" ]; then
             echo "direktori ditemukan"
-            git pull origin main
+            git pull origin master
           else
             echo "ditertori tidak ditemukan"
             sudo git clone https://github.com/zivanaa/DevOps.git .

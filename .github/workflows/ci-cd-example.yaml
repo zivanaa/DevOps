@@ -57,11 +57,12 @@ jobs:
           echo "berhasil masuk"
           ls
 
-          if [-d ".git"] then
+          if [-d ".git"]; then
             echo "direktori ditemukan"
             git pull origin main
           else
             echo "ditertori tidak ditemukan"
+            git clone https://github.com/zivanaa/DevOps.git .
           fi
 
   

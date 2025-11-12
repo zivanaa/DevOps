@@ -53,5 +53,6 @@ jobs:
         script: |
           cd ..
           ls
+          cd /home/app_project
 
   
